@@ -1,0 +1,9 @@
+npm i react router dom
+wrap <App> with <BrowserRouter> in index.js
+https://reactrouter.com/docs/en/v6/getting-started/installation
+
+
+npm install react-bootstrap bootstrap
+add script tags to index.html
+https://react-bootstrap.github.io/getting-started/introduction/
+

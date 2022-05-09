@@ -1,0 +1,14 @@
+/* Note : Notice that width:50% will resize it to 50% of the available space for the image, while max-width:50% will resize the image to 50% of its natural size. This is very important to take into account when using this rules for mobile web design, so for mobile web design max-width should always be used. */
+
+.card {
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ivory {
+  max-width: 50%;
+}  
+
+.master-container{
+}
