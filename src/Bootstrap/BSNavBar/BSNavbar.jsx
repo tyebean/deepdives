@@ -10,7 +10,7 @@ const BSNavBar = () => {
                 Bootstrap
                 </Navbar.Brand>
               <Nav className="me-auto">
-                <Nav.Link href="/adrien">Adrien-Twarog</Nav.Link>
+                <Nav.Link href="/warriorcats">Warrior Cats</Nav.Link>
                 {/* <Nav.Link href="/example">Example</Nav.Link>
                 <Nav.Link href="/example">Example</Nav.Link> */}
               </Nav>

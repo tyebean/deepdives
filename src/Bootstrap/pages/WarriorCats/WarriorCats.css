@@ -1,0 +1,93 @@
+
+.master-container{
+  /* display: flexbox;
+  justify-content: center;
+  align-items: center; */
+  /* margin: 50px; */
+
+  /* max-width: 700px; */
+
+  /* padding: 0;
+  text-align: center; */
+
+
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+
+}
+
+.login-flexbox-container{
+  /* display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px; */
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+.login-left{
+
+  /* float: left; */
+  /* height: 200px; */
+  text-align: center;
+  border-radius: 20px;
+  /* padding: 50% 10px;
+  margin: 10px 0 10px 0; */
+
+  background: #f0c8ba;
+  animation-name: backgroundColorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background: linear-gradient(90deg, #f0c8ba 1%, #e8c4cf 17%, #7900ff 68%);
+
+
+  max-width: 100%;
+  float:left; /* add this */
+
+
+
+}
+
+.login-right{
+  /* float: left; */
+  /* display: inline; */
+  border: 2px solid rgb(95, 95, 95);
+  border-radius: 10px;
+
+  overflow: hidden; /* if you don't want #second to wrap below #first */
+
+}
+
+.CatName{
+  display: block;
+}
+
+.CatSecret{
+  display: block;
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: #e19ee7;
+  }
+  50% {
+    background: #a96ad3;
+  }
+  100% {
+    background: #8d2da0;
+  }
+}
+
+ol.breadcrumb {
+  margin: 10px 0 10px 0;
+  background-color: pink;
+  display: flexbox;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
